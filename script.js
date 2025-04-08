@@ -1,30 +1,42 @@
-document.addEventListener('DOMContentLoaded', function() {
-    var faqQuestions = document.querySelectorAll('.faq-question');
-    faqQuestions.forEach(function(question) {
-        question.addEventListener('click', function() {
-            var answer = this.nextElementSibling;
-            if (answer.style.display === 'block') {
-                answer.style.display = 'none';
-            } else {
+document.addEventListener('DOMContentLoaded', function () {
+    const faqQuestions = document.querySelectorAll('.faq-question');
+
+    faqQuestions.forEach(function (question) {
+        question.addEventListener('click', function () {
+            const currentlyActive = document.querySelector('.faq-question.active');
+
+            // Close other open FAQ
+            if (currentlyActive && currentlyActive !== this) {
+                currentlyActive.classList.remove('active');
+                currentlyActive.nextElementSibling.style.display = 'none';
+            }
+
+            // Toggle this one
+            this.classList.toggle('active');
+            const answer = this.nextElementSibling;
+            if (this.classList.contains('active')) {
                 answer.style.display = 'block';
+            } else {
+                answer.style.display = 'none';
             }
         });
     });
-});
 
-function searchFAQs() {
-    var input, filter, faqContainer, faqItems, question, i, txtValue;
-    input = document.getElementById('searchInput');
-    filter = input.value.toUpperCase();
-    faqContainer = document.querySelector('.faq-container');
-    faqItems = faqContainer.getElementsByClassName('faq-item');
-    for (i = 0; i < faqItems.length; i++) {
-        question = faqItems[i].getElementsByClassName('faq-question')[0];
-        txtValue = question.textContent || question.innerText;
-        if (txtValue.toUpperCase().indexOf(filter) > -1) {
-            faqItems[i].style.display = '';
+    // Back to top button
+    const backToTopBtn = document.createElement('button');
+    backToTopBtn.id = 'backToTopBtn';
+    backToTopBtn.innerText = '↑';
+    document.body.appendChild(backToTopBtn);
+
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 300) {
+            backToTopBtn.style.display = 'block';
         } else {
-            faqItems[i].style.display = 'none';
+            backToTopBtn.style.display = 'none';
         }
-    }
-}
+    });
+
+    backToTopBtn.addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+});
