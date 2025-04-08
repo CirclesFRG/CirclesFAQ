@@ -39,23 +39,24 @@ main {
 }
 
 .faq-item {
-    background-color: #7166AD;
-    border-radius: 10px;
-    margin: 20px 0;         /* Adds vertical space between questions */
+    margin: 30px 0;
+    border-radius: 12px;
     overflow: hidden;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional: gives a soft shadow */
+    background-color: transparent; /* Let .faq-question and .faq-answer control their own colors */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
-
 .faq-question {
+    background-color: #7166AD;
+    color: white;
     padding: 20px;
     font-size: 18px;
     border: none;
-    background-color: #7166AD;
-    color: white;
-    text-align: left;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
     cursor: pointer;
     width: 100%;
+    text-align: left;
     position: relative;
     transition: background-color 0.3s ease;
 }
@@ -73,10 +74,11 @@ main {
 
 .faq-answer {
     display: none;
-    padding: 15px;
-    background-color: #e6e6e6; /* Light grey */
+    padding: 20px;
+    background-color: #e6e6e6;
     color: black;
-    border-top: 1px solid #ccc;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
 }
 
 #backToTopBtn {
