@@ -40,24 +40,24 @@ main {
 
 .faq-item {
     background-color: #7166AD;
-    border: none;
-    margin-bottom: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
+    margin: 20px 0;         /* Adds vertical space between questions */
     overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional: gives a soft shadow */
 }
 
+
 .faq-question {
-    width: 100%;
-    background-color: #7166AD;
+    padding: 20px;
+    font-size: 18px;
     border: none;
-    padding: 15px;
-    text-align: left;
-    font-size: 22px;
-    cursor: pointer;
-    outline: none;
+    background-color: #7166AD;
     color: white;
+    text-align: left;
+    cursor: pointer;
+    width: 100%;
     position: relative;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s ease;
 }
 
 .faq-question::after {
