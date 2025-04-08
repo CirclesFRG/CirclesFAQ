@@ -4,14 +4,14 @@
 body {
     font-family: 'Open Sans', sans-serif;
     background-color: #f4f4f4;
-    color: #ffffff;
+    color: #333;
     margin: 0;
     padding: 0;
 }
 
 header {
     background-color: #7166AD;
-    color: #ffffff;
+    color: #333;
     padding: 20px;
     text-align: center;
 }
