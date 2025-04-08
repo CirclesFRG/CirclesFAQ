@@ -1,23 +1,24 @@
-/* Importing the font used by frg.org.uk */
+/* Import Futura PT using fallback fonts if not available */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Futura PT', 'Open Sans', sans-serif;
     background-color: #f4f4f4;
-    color: #333;
+    color: #000;
     margin: 0;
     padding: 0;
 }
 
 header {
     background-color: #7166AD;
-    color: #ffffff;
+    color: white;
     padding: 20px;
     text-align: center;
 }
 
 header h1 {
     margin: 0;
+    font-size: 2rem;
 }
 
 #searchInput {
@@ -38,8 +39,8 @@ main {
 }
 
 .faq-item {
-    background-color: #ffffff;
-    border: 1px solid #ddd;
+    background-color: #7166AD;
+    border: none;
     margin-bottom: 10px;
     border-radius: 5px;
     overflow: hidden;
@@ -47,23 +48,50 @@ main {
 
 .faq-question {
     width: 100%;
-    background-color: #e6e6e6;
+    background-color: #7166AD;
     border: none;
     padding: 15px;
     text-align: left;
     font-size: 16px;
     cursor: pointer;
     outline: none;
+    color: white;
+    position: relative;
     transition: background-color 0.3s;
 }
 
-.faq-question:hover {
-    background-color: #d9d9d9;
+.faq-question::after {
+    content: '▼';
+    position: absolute;
+    right: 20px;
+    transition: transform 0.3s;
+}
+
+.faq-question.active::after {
+    transform: rotate(180deg);
 }
 
 .faq-answer {
     display: none;
     padding: 15px;
-    border-top: 1px solid #ddd;
-    background-color: #f9f9f9;
+    background-color: #e6e6e6; /* Light grey */
+    color: black;
+    border-top: 1px solid #ccc;
+}
+
+#backToTopBtn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    padding: 10px 15px;
+    background-color: #7166AD;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 18px;
+    cursor: pointer;
+    display: none;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    transition: opacity 0.3s ease;
 }
