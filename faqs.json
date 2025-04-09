@@ -13,7 +13,7 @@
     },
     {
         "question": "I am an administrator, how can I reset my password?",
-        "answer": "1. Ask another administrator to reset your password by following the steps in the set-up guide. 2. Contact Family Rights Group who will support you to gain access to your account using either the Emergency Access Codes or by giving temporary permission to set-up a trusted colleague as an additional administrator.  You can <a href='javascript:void(0);' onclick='openModal(\"https://github.com/CirclesFRG/CirclesFAQ/blob/main/Files/Reset%20adminitrator%20password.pdf\")'>read this PDF guide</a> for more information."
+        "answer": "1. Ask another administrator to reset your password by following the steps <a href='https://github.com/CirclesFRG/CirclesFAQ/blob/main/Files/Reset%20adminitrator%20password.pdf\' target='_blank'>in the set-up guide.</a> 2. Contact Family Rights Group who will support you to gain access to your account using either the Emergency Access Codes or by giving temporary permission to set-up a trusted colleague as an additional administrator.
     },
     {
         "question": "Can Personal Advisers (PAs) use Circles with young people?",
@@ -86,6 +86,14 @@
     {
         "question": "What data output will I see once we have started using Circles with young people?",
         "answer": "Please visit <a href='https://frg.org.uk/lifelong-links/lifelong-links/circles/' target='_blank'>Family Rights Group's Circles web page</a> to stay up-to-date."
+    },
+    {
+        "question": "How do I revoke access?",
+        "answer": "Please visit <a href='https://github.com/CirclesFRG/CirclesFAQ/blob/main/Files/Revoking%20access.pdf' target='_blank'>and follow the steps.</a>"
+    },
+    {
+        "question": "How do I reset passwords?",
+        "answer": "Please visit <a href='https://github.com/CirclesFRG/CirclesFAQ/blob/main/Files/Reset%20passwords.pdf' target='_blank'>and follow the steps.</a>"
     },
     {
         "question": "Can the child's ID contain their name?",
