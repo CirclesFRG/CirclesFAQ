@@ -16,6 +16,18 @@
         "answer": "1. Ask another administrator to reset your password by following the steps in the set-up guide. 2. Contact Family Rights Group who will support you to gain access to your account using either the Emergency Access Codes or by giving temporary permission to set-up a trusted colleague as an additional administrator."
     },
     {
+        "question": "Can Personal Advisers (PAs) use Circles with young people?",
+        "answer": "Yes, this function is now available and they are added in the same way that a coordiantor or social worker is added. Just click on the Personal Adviser tab on the admin screen and press the + button."
+    },
+    {
+        "question": "Can foster carers or children's home staff use Circles with young people?",
+        "answer": "No, a coordinator, PA, or social worker should use Circles with a young person. Our experience has shown that young people may face divided loyalties if a foster carer completes Circles with them and it may not be a true reflection of their network."
+    },
+    {
+        "question": "Can young people use Circles themselves?",
+        "answer": "Yes, if a young person is over 18 years old their Circles questionnaire can me forwarded to them to complete on their own. Our advice is that you ensure the young person is supported or has access to support if doing this on their own. Some of the questions may trigger an emotional response and it is important that someone is around to help if needed."
+    },
+    {
         "question": "The young person has changed their name, will the affect Circles?",
         "answer": "No, Circles uses a date of birth and Child ID. A change of name will not affect the Circles database."
     }
