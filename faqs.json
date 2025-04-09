@@ -9,11 +9,11 @@
     },
     {
         "question": "I am a Circles administrator, can I complete the questionnaire with a young person?",
-        "answer": "No, administrator accounts cannot be used to complete Circles questionnaires. You will need to create a separate coordinator/social worker account using a different email address. You can <a href='javascript:void(0);' onclick='openModal(\"https://yourwebsite.com/path/to/your-pdf.pdf\")'>read this PDF guide</a> for more information."
+        "answer": "No, administrator accounts cannot be used to complete Circles questionnaires. You will need to create a separate coordinator/social worker account using a different email address."
     },
     {
         "question": "I am an administrator, how can I reset my password?",
-        "answer": "1. Ask another administrator to reset your password by following the steps in the set-up guide. 2. Contact Family Rights Group who will support you to gain access to your account using either the Emergency Access Codes or by giving temporary permission to set-up a trusted colleague as an additional administrator."
+        "answer": "1. Ask another administrator to reset your password by following the steps in the set-up guide. 2. Contact Family Rights Group who will support you to gain access to your account using either the Emergency Access Codes or by giving temporary permission to set-up a trusted colleague as an additional administrator.  You can <a href='javascript:void(0);' onclick='openModal(\"https://github.com/CirclesFRG/CirclesFAQ/blob/main/Files/Reset%20adminitrator%20password.pdf\")'>read this PDF guide</a> for more information."
     },
     {
         "question": "Can Personal Advisers (PAs) use Circles with young people?",
