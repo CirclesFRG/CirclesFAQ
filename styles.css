@@ -3,7 +3,8 @@
 
 body {
     font-family: 'Futura PT', 'Open Sans', sans-serif;
-    background-color: #f4f4f4;
+    background: rgba(0, 0, 0, 0.1) url('https://github.com/CirclesFRG/CirclesFAQ/blob/main/images/Circles.jpg') no-repeat center center fixed;
+    background-size: cover; /* Ensures the background image covers the entire screen */
     color: #000;
     margin: 0;
     padding: 0;
@@ -33,15 +34,6 @@ header {
 header h1 {
     margin: 0;
     font-size: 2rem;
-}
-
-body {
-    font-family: 'Futura PT', 'Open Sans', sans-serif;
-    background: rgba(0, 0, 0, 0.1) url('https://github.com/CirclesFRG/CirclesFAQ/blob/main/images/Circles.jpg') no-repeat center center fixed;
-    background-size: cover; /* Ensures the background image covers the entire screen */
-    color: #000;
-    margin: 0;
-    padding: 0;
 }
 
 /* Search input styling */
