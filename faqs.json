@@ -9,7 +9,7 @@
     },
     {
         "question": "I am a Circles administrator, can I complete the questionnaire with a young person?",
-        "answer": "No, administrator accounts cannot be used to complete Circles questionnaires. You will need to create a separate coordinator/social worker account using a different email address. You can <a href='https://github.com/CirclesFRG/CirclesFAQ/blob/main/Files/Reset%20adminitrator%20password.pdf' target='_blank'>read this PDF guide</a> for more information."
+        "answer": "No, administrator accounts cannot be used to complete Circles questionnaires. You will need to create a separate coordinator/social worker account using a different email address. You can <a href='javascript:void(0);' onclick='openModal(\"https://yourwebsite.com/path/to/your-pdf.pdf\")'>read this PDF guide</a> for more information."
     },
     {
         "question": "I am an administrator, how can I reset my password?",
