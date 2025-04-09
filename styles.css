@@ -58,7 +58,7 @@ main {
 /* Question styles */
 .faq-question {
     padding: 20px;
-    font-size: 20px;
+    font-size: 22px;
     color: white;
     border: none;
     text-align: left;
@@ -97,16 +97,11 @@ main {
 /* When open */
 .faq-item.active .faq-answer {
     padding: 20px;
-    max-height: 500px; /* Large enough to fit most answers */
-}
-
-/* Show answer when active */
-.faq-item.active .faq-answer {
-    display: block;
+    max-height: none;  /* No limit for max height */
 }
 
 /* Back to top button */
-#backToTopBtn[aria-label="Back to top"] {
+#backToTopBtn {
     position: fixed;
     bottom: 30px;  /* Positioned at the bottom */
     right: 30px;   /* Positioned towards the right */
@@ -123,3 +118,17 @@ main {
     transition: opacity 0.3s ease;  /* Smooth opacity transition */
 }
 
+html {
+    scroll-behavior: smooth;  /* Enables smooth scrolling */
+}
+
+@media (max-width: 600px) {
+    .faq-question {
+        font-size: 18px;  /* Slightly smaller font size for mobile */
+        padding: 15px;
+    }
+
+    .faq-answer {
+        padding: 10px 15px;  /* Adjust padding for smaller screens */
+    }
+}
