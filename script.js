@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     // Search function with auto-collapse
-    window.searchFAQs = function () {
+    const searchFAQs = function () {
         const input = document.getElementById("searchInput").value.toLowerCase();
         const faqItems = document.querySelectorAll(".faq-item");
 
@@ -88,4 +88,7 @@ document.addEventListener('DOMContentLoaded', function () {
             ans.setAttribute('aria-hidden', 'true');
         });
     };
+
+    // Add event listener to the search input
+    document.getElementById('searchInput').addEventListener('keyup', searchFAQs);
 });
