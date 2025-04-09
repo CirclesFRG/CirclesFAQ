@@ -3,37 +3,27 @@ document.addEventListener('DOMContentLoaded', function () {
 
     faqQuestions.forEach(function (question) {
         question.addEventListener('click', function () {
-            const currentlyActive = document.querySelector('.faq-question.active');
+            const currentItem = this.parentElement;
+            const openItem = document.querySelector('.faq-item.active');
 
-            // Close other open FAQ
-            if (currentlyActive && currentlyActive !== this) {
-                currentlyActive.classList.remove('active');
-                currentlyActive.nextElementSibling.style.display = 'none';
+            if (openItem && openItem !== currentItem) {
+                openItem.classList.remove('active');
+                openItem.querySelector('.faq-question').classList.remove('active');
             }
 
-            // Toggle this one
+            currentItem.classList.toggle('active');
             this.classList.toggle('active');
-            const answer = this.nextElementSibling;
-            if (this.classList.contains('active')) {
-                answer.style.display = 'block';
-            } else {
-                answer.style.display = 'none';
-            }
         });
     });
 
-    // Back to top button
+    // Back to top button creation
     const backToTopBtn = document.createElement('button');
     backToTopBtn.id = 'backToTopBtn';
     backToTopBtn.innerText = '↑';
     document.body.appendChild(backToTopBtn);
 
     window.addEventListener('scroll', () => {
-        if (window.scrollY > 300) {
-            backToTopBtn.style.display = 'block';
-        } else {
-            backToTopBtn.style.display = 'none';
-        }
+        backToTopBtn.style.display = window.scrollY > 300 ? 'block' : 'none';
     });
 
     backToTopBtn.addEventListener('click', () => {
