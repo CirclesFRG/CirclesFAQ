@@ -58,7 +58,7 @@ main {
 /* Question styles */
 .faq-question {
     padding: 20px;
-    font-size: 22px;
+    font-size: 20px;
     color: white;
     border: none;
     text-align: left;
@@ -106,7 +106,7 @@ main {
 }
 
 /* Back to top button */
-#backToTopBtn {
+#backToTopBtn[aria-label="Back to top"] {
     position: fixed;
     bottom: 30px;  /* Positioned at the bottom */
     right: 30px;   /* Positioned towards the right */
