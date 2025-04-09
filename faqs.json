@@ -140,8 +140,8 @@
         "answer": "Yes, presently you can print this from your browser in the same way you would print out a web page. Soon we will have a print to PDF function on the screen to make this easier and more aesthetic. Alternatively the summary can also be captured using 'print screen' and saved as a picture or added to a word document."
     },
     {
-        "question": "Can I print off the questions before I do use Circles with a young person?",
-        "answer": "No, the questions cannot be printed off and the questionnaire can only be input online. If the screen interface is not going to be accessible for the young person you are working with, we recommend reading out the questions from the screen or answering these questions using different mediums (e.g., conversation, play, activities)."
+        "question": "Can I print off the questions before I use Circles with a young person?",
+        "answer": "No, the questions cannot be printed off and the questionnaire can only be input online. We recommend reading out the questions from the screen or answering these questions using different mediums (e.g., conversation, play, activities). If you are needing to use Circles where there is no internet (e.g., in prisons) then please contact circles@frg.org.uk for advice on how to do this."
     },
     {
         "question": "How many times can you do a Cirles questionnaire with a young person?",
@@ -165,7 +165,7 @@
     },
     {
         "question": "Can I use Circles with no internet?",
-        "answer": "No, you will need an internet connection for Circles to work."
+        "answer": "No, you will need an internet connection for Circles to work. If you are needing to use Circles where there is no internet (e.g., in prisons) then please contact circles@frg.org.uk for advice on how to do this."
     },
     {
         "question": "How do I send a questionnaire to a young person?",
@@ -183,7 +183,7 @@
         "question": "Can young people under 18 have the Circles questionnaire sent to them via a link?",
         "answer": "Yes, but this should only be done if there is no other option and with serious consideration as to the environment the young person will complete Circles in. There should be organised support available for them when they do. The support person should know what Circles is and be aware of what support the young person may need."
     },
-        {
+    {
         "question": "How often should Circles be offered?",
         "answer": "Circles is intended as an ongoing practice tool. It can be used before during and after Lifelong Links, but can also be used periodically by a social worker to see how a child or young person's network changes over time."
     },
@@ -200,52 +200,52 @@
         "answer": "Technically yes, it can include anyone. However, it is designed to look at the young person's current support network. They should be allowed complete freedom to include who they would like. The wording at the start of the questionnaire will help steer everyone in the right direction."
     },
     {
-        "question": "What is Circles?",
-        "answer": "Circles is a platform designed to..."
+        "question": "The emoji a young person is looking for is not featured.",
+        "answer": "We understand that not every person in a network will have an emoji that looks exactly like them. We use Microsoft's 'Fluent Emojis' which are an international bank of emojis. We will be happy to hear about additional emojis that can represent people in young people's lives - circles@frg.org.uk"
     },
     {
-        "question": "What is Circles?",
-        "answer": "Circles is a platform designed to..."
+        "question": "Can I bypass emojis and just go to the questions?",
+        "answer": "No, the emoji part of this cannot be bypassed. It is integral to answering questions. If a young person does not wish to fully personalise Circles, then they can simply select the silhouette emoji to speed through."
     },
     {
-        "question": "What is Circles?",
-        "answer": "Circles is a platform designed to..."
+        "question": "Can I upload answers to questions if I cannot use the internet?",
+        "answer": "If the Circles conversation is held without internet, then you will have to go through the full questionnaire to enter the answers for the young person in a way that will faithfully represent their answers."
     },
     {
-        "question": "What is Circles?",
-        "answer": "Circles is a platform designed to..."
-    },
-        {
-        "question": "What is Circles?",
-        "answer": "Circles is a platform designed to..."
+        "question": "If I don't finish Circles in one session, will it be saved?",
+        "answer": "Yes, progress will always be saved and will show as an incomplete questionnaire when you next log on."
     },
     {
-        "question": "What is Circles?",
-        "answer": "Circles is a platform designed to..."
+        "question": "Can a young person enter a full name for their important people?",
+        "answer": "<strong>No, because of data protection only first name, or first name and last initial, or known-by names should be entered</strong>. For example, Bob, Bob B, or Granddad Bob respectively.."
     },
     {
-        "question": "What is Circles?",
-        "answer": "Circles is a platform designed to..."
+        "question": "Can a new person be added after the Circles questionnaire has been submitted?",
+        "answer": "No, once the questionnaire has been finalised it is a closed document. You can always start a new one in which previous people will be drawn through and a new person will be added."
     },
     {
-        "question": "What is Circles?",
-        "answer": "Circles is a platform designed to..."
-    },
-        {
-        "question": "What is Circles?",
-        "answer": "Circles is a platform designed to..."
+        "question": "Can I use Circles for other children who are not accessing Lifelong Links?",
+        "answer": "Yes, but need to be mindful of the Admin will be able to manage the additional oversight and work required for this."
     },
     {
-        "question": "What is Circles?",
-        "answer": "Circles is a platform designed to..."
+        "question": "Can we fill it in for children and young people who have additional learning needs?",
+        "answer": "This is a judgement call from yourself with the young person that is in front of you. If this interface is not working for a young person, then any creativity you can use to have the conversation in another way would be great. Please check this out with the planning meeting group and those that know the young person best."
     },
     {
-        "question": "What is Circles?",
-        "answer": "Circles is a platform designed to..."
+        "question": "Is there a space for free text and explanations?",
+        "answer": "No, there was an option in a previous version, however it was not helpful to coordinators or young people. Circles is optimised for visual interactivity. Any notes needed can be written and discussed by the personal adviser/coordinator/social worker and young person."
     },
     {
-        "question": "What is Circles?",
-        "answer": "Circles is a platform designed to..."
+        "question": "I am a social worker, how an I reset my password?",
+        "answer": "Simply contact your local Circles administrator. This will be a person in your own organisation (not Family Rights Group). They will be able to reset your password."
+    },
+    {
+        "question": "How do I delete a young person from the system?",
+        "answer": "Any young person can be deleted by the administrator. On the main administrator screen click on 'young people' then the young persons 'Circles ID' and then click 'Delete'. <strong>This action cannot be undone</strong>."
+    },
+    {
+        "question": "I deleted a young person by accident, how do I get them back?",
+        "answer": "If you have deleted a young person or their questionnaire. This acion cannot be reversed. Please use this function carefully."
     },
     {
         "question": "The young person has changed their name, will the affect Circles?",
