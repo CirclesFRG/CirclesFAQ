@@ -14,9 +14,9 @@ body {
     width: auto;  /* Maintain aspect ratio */
     vertical-align: middle; /* Align logo with text */
     margin-right: 20px; /* Space between logo and text */
-    border: 3px solid white; /* White border */
+    border: 5px solid white; /* White border */
     border-radius: 12px; /* Curved edges */
-    padding: 0px; /* Optional: Add some space between the logo and the border */
+    padding: -1px; /* Optional: Add some space between the logo and the border */
 }
 
 /* Header styling */
