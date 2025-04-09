@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     const faqContainer = document.querySelector('.faq-container');
-
+    
     // Fetch the FAQ data from the JSON file
     fetch('faqs.json')
         .then(response => response.json())
@@ -87,28 +87,5 @@ document.addEventListener('DOMContentLoaded', function () {
             btn.setAttribute('aria-expanded', 'false');
             ans.setAttribute('aria-hidden', 'true');
         });
-    }
-
-    // Modal handling for PDFs
-    var modal = document.getElementById("pdfModal");
-    var pdfIframe = document.getElementById("pdfIframe");
-
-    // Function to open the modal
-    function openModal(pdfUrl) {
-        modal.style.display = "block";
-        pdfIframe.src = pdfUrl;
-    }
-
-    // Function to close the modal
-    function closeModal() {
-        modal.style.display = "none";
-        pdfIframe.src = ""; // Stop the PDF from loading when the modal closes
-    }
-
-    // Clicking outside the modal will also close it
-    window.onclick = function (event) {
-        if (event.target == modal) {
-            closeModal();
-        }
-    }
+    };
 });
