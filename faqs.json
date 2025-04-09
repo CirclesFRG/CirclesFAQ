@@ -108,92 +108,88 @@
         "answer": "Simply contact your Circles administrator. This will be a person in your own organisation (not Family Rights Group). They will be able to reset your password."
     },
         {
-        "question": "What is Circles?",
-        "answer": "Circles is a platform designed to..."
+        "question": "Where is Circles data stored?",
+        "answer": "The Circles database is securely stored within Amazon’s data centre in Dublin. It will remain within the EEA and not be transferred outside it."
     },
     {
-        "question": "What is Circles?",
-        "answer": "Circles is a platform designed to..."
+        "question": "What information does Family Rights Group see?",
+        "answer": "Family Rights Group will be able to view high level analytics of the data that has been collected. Family Rights Group will not be able to view or access the individual responses to Circles."
     },
     {
-        "question": "What is Circles?",
-        "answer": "Circles is a platform designed to..."
+        "question": "Why does Family Rights Group need access to the data?",
+        "answer": "Circles was originally developed to help evaluate the effectiveness of Lifelong Links as well as be a helpful practice tool. The high level metrics helped monitor and evaluate the effectiveness of Lifelong Links as well as using the data to report to funders. Such high level data is also necessary to monitor the use of Circles itself, and understand how it is being used as a practice tool. Family Rights Group only has access to anonymised aggregated results without any need for access to personal identification."
     },
     {
-        "question": "What is Circles?",
-        "answer": "Circles is a platform designed to..."
+        "question": "Who are Atto?",
+        "answer": "Family Rights Group are working with Atto to develop Circles. Atto are a branding and digital agency. Since 2005, Atto have been designing and building systems dealing with highly confidential commercial and personal information for organisations including Intel EMEA, Canon Europe, Channel 4, Comic Relief, NHS East Midlands and the BBC. "
     },
         {
-        "question": "What is Circles?",
-        "answer": "Circles is a platform designed to..."
+        "question": "Can I practice using Cirlces before I work with a young person?",
+        "answer": "Absolutely. Please visit <a href='https://demo.frg.org.uk' target='_blank'>the Circles demo page</a> to practice using Circles."
     },
     {
-        "question": "What is Circles?",
-        "answer": "Circles is a platform designed to..."
+        "question": "Who can complete circles with a young person?",
+        "answer": "The child or young person's Lifelong Links coordinator, personal adviser (PA), social worker or the young person themselves can complete Circles."
     },
     {
-        "question": "What is Circles?",
-        "answer": "Circles is a platform designed to..."
+        "question": "Can I add pets?",
+        "answer": "Yes pets can be added! This will be the last question on each Circles questionnaire 🐶😺!"
     },
     {
-        "question": "What is Circles?",
-        "answer": "Circles is a platform designed to..."
+        "question": "How do I save the completed Circles summary so I can save it to he child's electronic file?",
+        "answer": "Yes, presently you can print this from your browser in the same way you would print out a web page. Soon we will have a print to PDF function on the screen to make this easier and more aesthetic. Alternatively the summary can also be captured using 'print screen' and saved as a picture or added to a word document."
+    },
+    {
+        "question": "Can I print off the questions before I do use Circles with a young person?",
+        "answer": "No, the questions cannot be printed off and the questionnaire can only be input online. If the screen interface is not going to be accessible for the young person you are working with, we recommend reading out the questions from the screen or answering these questions using different mediums (e.g., conversation, play, activities)."
+    },
+    {
+        "question": "How many times can you do a Cirles questionnaire with a young person?",
+        "answer": "As many as necessary. Once, twice or more. There is no upper limit."
+    },
+    {
+        "question": "Can a social worker and coordinator use Circles for the same child?",
+        "answer": "Yes, but not at the same time. We recommend that the best person to use Circles with the young person is identified at the Lifelong Links planning meeting. Coordinators can 'hand over' Circles to the social worker after Lifelong Links is completed or at any other stage."
+    },
+    {
+        "question": "What devices are compatible with Circles?",
+        "answer": "Circles can be used on mobile devices, tablets and laptops. If you experience any technical difficulties, please email circles@frg.org.uk for support."
+    },
+    {
+        "question": "Can I edit the name and picture of an 'important person' once I've saved it?",
+        "answer": "It is possible, but not recommended. You can click/press and hold on the 'important person' icon to enable this feature."
+    },
+    {
+        "question": "I have started a new questionnaire and there are already names and avatars there.",
+        "answer": "Yes, names and avatars will pull through from previous Circles questionnaires. If this is unexpected, please check you have the right person or that no previous questionnaires have been completed by someone else or in error by contacting your organisation's administrators."
+    },
+    {
+        "question": "Can I use Circles with no internet?",
+        "answer": "No, you will need an internet connection for Circles to work."
+    },
+    {
+        "question": "How do I send a questionnaire to a young person?",
+        "answer": "Please follow the steps in the Coordinator Set-Up Guide"
+    },
+    {
+        "question": "Can I save a questionnaire half way through",
+        "answer": "Yes, all progress will be saved. When you log back on to your Circles account and click on the child's Circles ID, you will see a section saying 'incomplete questionnaires'."
+    },
+    {
+        "question": "When the link is sent to the young person, can it go as text, WhatsApp as well as email?",
+        "answer": "Yes, Circles will generate a link which can be sent by text, email or any other means - see our practice guide for more information"
+    },
+    {
+        "question": "Can young people under 18 have the Circles questionnaire sent to them via a link?",
+        "answer": "Yes, but this should only be done if there is no other option and with serious consideration as to the environment the young person will complete Circles in. There should be organised support available for them when they do. The support person should know what Circles is and be aware of what support the young person may need."
     },
         {
-        "question": "What is Circles?",
-        "answer": "Circles is a platform designed to..."
+        "question": "How often should Circles be offered?",
+        "answer": "Circles is intended as an ongoing practice tool. It can be used before during and after Lifelong Links, but can also be used periodically by a social worker to see how a child or young person's network changes over time."
     },
     {
-        "question": "What is Circles?",
-        "answer": "Circles is a platform designed to..."
-    },
-    {
-        "question": "What is Circles?",
-        "answer": "Circles is a platform designed to..."
-    },
-    {
-        "question": "What is Circles?",
-        "answer": "Circles is a platform designed to..."
-    },
-        {
-        "question": "What is Circles?",
-        "answer": "Circles is a platform designed to..."
-    },
-    {
-        "question": "What is Circles?",
-        "answer": "Circles is a platform designed to..."
-    },
-    {
-        "question": "What is Circles?",
-        "answer": "Circles is a platform designed to..."
-    },
-    {
-        "question": "What is Circles?",
-        "answer": "Circles is a platform designed to..."
-    },
-        {
-        "question": "What is Circles?",
-        "answer": "Circles is a platform designed to..."
-    },
-    {
-        "question": "What is Circles?",
-        "answer": "Circles is a platform designed to..."
-    },
-    {
-        "question": "What is Circles?",
-        "answer": "Circles is a platform designed to..."
-    },
-    {
-        "question": "What is Circles?",
-        "answer": "Circles is a platform designed to..."
-    },
-        {
-        "question": "What is Circles?",
-        "answer": "Circles is a platform designed to..."
-    },
-    {
-        "question": "What is Circles?",
-        "answer": "Circles is a platform designed to..."
+        "question": "Can additional people be added to Circles during the questionnaire?",
+        "answer": "Yes, each question has a plus (+) button available. Simply click on the plus to add more people. The new person will be available for all of the questions before and after the question you are currently on. The <a href='https://frg.org.uk/lifelong-links/lifelong-links-circles/' target='_blank'>Circles film</a>" will show you haw to do it.
     },
     {
         "question": "What is Circles?",
