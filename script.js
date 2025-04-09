@@ -5,19 +5,19 @@ document.addEventListener('DOMContentLoaded', function () {
     fetch('faqs.json')
         .then(response => response.json())
         .then(faqData => {
-            faqData.forEach(faq => {
+            faqData.forEach((faq, index) => {
                 const faqItem = document.createElement('div');
                 faqItem.classList.add('faq-item');
 
                 const questionButton = document.createElement('button');
                 questionButton.classList.add('faq-question');
                 questionButton.setAttribute('aria-expanded', 'false');
-                questionButton.setAttribute('aria-controls', faq.question);
+                questionButton.setAttribute('aria-controls', `faq${index}`);
                 questionButton.innerText = faq.question;
 
                 const answerDiv = document.createElement('div');
                 answerDiv.classList.add('faq-answer');
-                answerDiv.setAttribute('id', faq.question);
+                answerDiv.setAttribute('id', `faq${index}`);
                 answerDiv.setAttribute('role', 'region');
                 answerDiv.setAttribute('aria-hidden', 'true');
                 answerDiv.innerHTML = `<p>${faq.answer}</p>`;
@@ -34,29 +34,24 @@ document.addEventListener('DOMContentLoaded', function () {
                     const currentItem = this.parentElement;
                     const openItem = document.querySelector('.faq-item.active');
 
+                    // Close currently active item if it's not the one clicked
                     if (openItem && openItem !== currentItem) {
                         openItem.classList.remove('active');
                         openItem.querySelector('.faq-question').classList.remove('active');
                     }
 
+                    // Toggle the current item
                     currentItem.classList.toggle('active');
                     this.classList.toggle('active');
+
+                    // Toggle aria-expanded and aria-hidden for accessibility
+                    const isActive = currentItem.classList.contains('active');
+                    this.setAttribute('aria-expanded', isActive.toString());
+                    currentItem.querySelector('.faq-answer').setAttribute('aria-hidden', (!isActive).toString());
                 });
             });
         })
         .catch(error => console.error('Error loading FAQs:', error));
-});
-
-
-            // Toggle current item
-            currentItem.classList.toggle('active');
-            this.classList.toggle('active');
-
-            const isActive = currentItem.classList.contains('active');
-            this.setAttribute('aria-expanded', isActive.toString());
-            currentItem.querySelector('.faq-answer').setAttribute('aria-hidden', (!isActive).toString());
-        });
-    });
 
     // Back to top button creation
     const backToTopBtn = document.createElement('button');
