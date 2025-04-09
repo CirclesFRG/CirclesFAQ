@@ -16,7 +16,7 @@ body {
     margin-right: 20px; /* Space between logo and text */
     border: 5px solid white; /* White border */
     border-radius: 12px; /* Curved edges */
-    padding: -1px; /* Optional: Add some space between the logo and the border */
+    padding: 1px; /* Optional: Add some space between the logo and the border */
 }
 
 /* Header styling */
