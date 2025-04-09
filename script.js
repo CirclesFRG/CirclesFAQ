@@ -1,19 +1,52 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const faqQuestions = document.querySelectorAll('.faq-question');
+    const faqContainer = document.querySelector('.faq-container');
+    
+    // Fetch the FAQ data from the JSON file
+    fetch('faqs.json')
+        .then(response => response.json())
+        .then(faqData => {
+            faqData.forEach(faq => {
+                const faqItem = document.createElement('div');
+                faqItem.classList.add('faq-item');
 
-    faqQuestions.forEach(function (question) {
-        question.addEventListener('click', function () {
-            const currentItem = this.parentElement;
-            const openItem = document.querySelector('.faq-item.active');
+                const questionButton = document.createElement('button');
+                questionButton.classList.add('faq-question');
+                questionButton.setAttribute('aria-expanded', 'false');
+                questionButton.setAttribute('aria-controls', faq.question);
+                questionButton.innerText = faq.question;
 
-            // Close any open item
-            if (openItem && openItem !== currentItem) {
-                openItem.classList.remove('active');
-                const openBtn = openItem.querySelector('.faq-question');
-                openBtn.classList.remove('active');
-                openBtn.setAttribute('aria-expanded', 'false');
-                openItem.querySelector('.faq-answer').setAttribute('aria-hidden', 'true');
-            }
+                const answerDiv = document.createElement('div');
+                answerDiv.classList.add('faq-answer');
+                answerDiv.setAttribute('id', faq.question);
+                answerDiv.setAttribute('role', 'region');
+                answerDiv.setAttribute('aria-hidden', 'true');
+                answerDiv.innerHTML = `<p>${faq.answer}</p>`;
+
+                faqItem.appendChild(questionButton);
+                faqItem.appendChild(answerDiv);
+                faqContainer.appendChild(faqItem);
+            });
+
+            // Initialize toggle functionality for FAQs
+            const faqQuestions = document.querySelectorAll('.faq-question');
+            faqQuestions.forEach(function (question) {
+                question.addEventListener('click', function () {
+                    const currentItem = this.parentElement;
+                    const openItem = document.querySelector('.faq-item.active');
+
+                    if (openItem && openItem !== currentItem) {
+                        openItem.classList.remove('active');
+                        openItem.querySelector('.faq-question').classList.remove('active');
+                    }
+
+                    currentItem.classList.toggle('active');
+                    this.classList.toggle('active');
+                });
+            });
+        })
+        .catch(error => console.error('Error loading FAQs:', error));
+});
+
 
             // Toggle current item
             currentItem.classList.toggle('active');
