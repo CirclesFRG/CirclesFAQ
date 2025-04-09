@@ -73,9 +73,11 @@
     },
     {
         "question": "Who will be able to view a young person's answers?",
-        "answer": "The young person’s social worker will be able to view the answers from any past Circles questionnaires. 
-The Lifelong Links coordinator will only be able to view the Circles questionnaire that they complete with a young person. They will not be able to view past questionnaires nor will then be able to log in and look at questionnaires completed at a future date.
-Neither Family Rights Group nor Atto (the web developers) will have access to child-specific data."
+        "answer": "The young person’s social worker will be able to view the answers from any past Circles questionnaires. The Lifelong Links coordinator will only be able to view the Circles questionnaire that they complete with a young person. They will not be able to view past questionnaires nor will then be able to log in and look at questionnaires completed at a future date. Neither Family Rights Group nor Atto (the web developers) will have access to child-specific data."
+    },
+    {
+        "question": "Can Circles be used outside of Lifelong Links?",
+        "answer": "Yes, Circles can be used by social work teams with other children in care."
     },
     {
         "question": "The young person has changed their name, will the affect Circles?",
