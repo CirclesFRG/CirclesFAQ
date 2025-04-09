@@ -5,6 +5,20 @@
     },
     {
         "question": "If you delete a coordinator, will you delete the young person's data?",
-        "answer": "No, the young person's information will return to the administrator..."
-    }
+        "answer": "No the young person's information will return to the administrator so that it can be assigned to a different coordinator or social worker."
+    },
+    {
+        "question": "I am a Circles administrator, can I complete the questionnaire with a young person?",
+        "answer": "No, administrator accounts cannot be used to complete Circles questionnaires. You will need to create a separate coordinator/social worker account using a different email address."
+    },
+    {
+        "question: "I am an administrator, how can I reset my password?",
+        "answer: "1. Ask another administrator to reset your password by following the steps in the set-up guide. 2. Contact Family Rights Group who will support you to gain access to your account using either the Emergency Access Codes or by giving temporary permission to set-up a trusted colleague as an additional administrator."
+    },
+    {
+        "question: "The young person has changed their name, will the affect Circles?",
+        "answer: "No, Circles uses a date of birth and Child ID. A change of name will not affect the Circles database."
+    },
+    
+    
 ]
