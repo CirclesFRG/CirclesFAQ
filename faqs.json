@@ -89,11 +89,11 @@
     },
     {
         "question": "How do I revoke access?",
-        "answer": "Please visit <a href='https://github.com/CirclesFRG/CirclesFAQ/blob/main/Files/Revoking%20access.pdf' target='_blank'>and follow the steps.</a>"
+        "answer": "Please <a href='https://github.com/CirclesFRG/CirclesFAQ/blob/main/Files/Revoking%20access.pdf' target='_blank'>follow these steps.</a>"
     },
     {
         "question": "How do I reset passwords?",
-        "answer": "Please visit <a href='https://github.com/CirclesFRG/CirclesFAQ/blob/main/Files/Reset%20passwords.pdf' target='_blank'>and follow the steps.</a>"
+        "answer": "Please <a href='https://github.com/CirclesFRG/CirclesFAQ/blob/main/Files/Reset%20passwords.pdf' target='_blank'>follow the steps.</a>"
     },
     {
         "question": "Can the child's ID contain their name?",
