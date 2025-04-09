@@ -3,9 +3,8 @@
 
 body {
     font-family: 'Futura PT', 'Open Sans', sans-serif;
-    background: rgba(0, 0, 0, 0.1) url('https://raw.githubusercontent.com/CirclesFRG/CirclesFAQ/main/images/Circles.jpg') no-repeat center center fixed;
-    background-size: cover; /* Ensures the background image covers the entire screen */
-    color: #000;
+    background: white
+        color: #000;
     margin: 0;
     padding: 0;
 }
