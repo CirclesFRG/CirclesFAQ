@@ -18,5 +18,5 @@
     {
         "question": "The young person has changed their name, will the affect Circles?",
         "answer:" "No, Circles uses a date of birth and Child ID. A change of name will not affect the Circles database."
-    },  
+    }
 ]
