@@ -28,6 +28,34 @@
         "answer": "Yes, if a young person is over 18 years old their Circles questionnaire can me forwarded to them to complete on their own. Our advice is that you ensure the young person is supported or has access to support if doing this on their own. Some of the questions may trigger an emotional response and it is important that someone is around to help if needed."
     },
     {
+        "question": "Can questionnaires be deleted?",
+        "answer": "Yes, if an error was made with a questionnaire, they can be deleted."
+    },
+    {
+        "question": "Is every Circles ID (e.g. Red Cheetah 23) individual to my organisation?",
+        "answer": "Yes, each young person will have a completely unique Circles ID."
+    },
+    {
+        "question": "What is the difference between deleting an account and revoking access to an account?",
+        "answer": "Administrators can permanently delete the accounts of former administrators. Former coordinators or social workers can only have their access revoked. This access can be reinstated at any time."
+    },
+    {
+        "question": "Can I filter data using specific data points?",
+        "answer": "Data can be filtered by 'under-16' and 'over-16', 'receiving Lifelong Links' and 'not receiving Lifelong Links'. There will soon be more filters available."
+    },
+    {
+        "question": "How do I assign a young person to a coordinator?",
+        "answer": "Please follow the steps in the Admin Set-Up Guide."
+    },
+    {
+        "question": "How do I assign a young person to a social worker?",
+        "answer": "Please follow the steps in the Admin Set-Up Guide."
+    },
+    {
+        "question": "Can a social worker and coordinator use Circles for the same young person at the same time?",
+        "answer": "No, the young person can only be assigned to either the coordinator or the social worker and not both at the same time."
+    },
+    {
         "question": "The young person has changed their name, will the affect Circles?",
         "answer": "No, Circles uses a date of birth and Child ID. A change of name will not affect the Circles database."
     }
