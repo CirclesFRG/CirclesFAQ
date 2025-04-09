@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
 
 body {
-    font-family: 'Futura PT', 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif; /* Use Open Sans only */
     background-color: #f4f4f4;
     color: #000;
     margin: 0;
@@ -66,7 +66,6 @@ main {
     width: 100%;
     position: relative;
     transition: background-color 0.3s ease;
-    font-family: 'Futura PT', 'Open Sans', sans-serif;
 }
 
 /* Arrow style */
@@ -97,38 +96,42 @@ main {
 /* When open */
 .faq-item.active .faq-answer {
     padding: 20px;
-    max-height: none;  /* No limit for max height */
+    max-height: 1000px;  /* Adjust this value */
 }
 
 /* Back to top button */
 #backToTopBtn {
     position: fixed;
-    bottom: 30px;  /* Positioned at the bottom */
-    right: 30px;   /* Positioned towards the right */
-    padding: 12px 18px;  /* Adjusted padding for a more rounded button */
-    background-color: rgba(113, 102, 173, 0.8); /* Semi-transparent purple */
+    bottom: 30px;  
+    right: 30px;   
+    padding: 12px 18px;  
+    background-color: rgba(113, 102, 173, 0.8); 
     color: white;
     border: none;
-    border-radius: 50%;  /* Circular button */
-    font-size: 20px;      /* Larger font size for visibility */
+    border-radius: 50%;  
+    font-size: 20px;      
     cursor: pointer;
-    display: none;        /* Initially hidden */
-    z-index: 9999;        /* Ensures it's on top of other elements */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);  /* Soft shadow to make it stand out */
-    transition: opacity 0.3s ease;  /* Smooth opacity transition */
+    display: none;        
+    z-index: 9999;        
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);  
+    transition: opacity 0.3s ease;  
 }
 
 html {
-    scroll-behavior: smooth;  /* Enables smooth scrolling */
+    scroll-behavior: smooth;  
 }
 
 @media (max-width: 600px) {
+    .faq-container {
+        width: 90%; 
+    }
+
     .faq-question {
-        font-size: 18px;  /* Slightly smaller font size for mobile */
+        font-size: 18px;  
         padding: 15px;
     }
 
     .faq-answer {
-        padding: 10px 15px;  /* Adjust padding for smaller screens */
+        padding: 10px 15px;  
     }
 }
