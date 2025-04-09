@@ -25,8 +25,8 @@
     },
     {
         "question": "Can young people use Circles themselves?",
-        "answer": "Yes, if a young person is over 18 years old their Circles questionnaire can me forwarded to them to complete on their own. Our advice is that you ensure the young person is supported or has access to support if doing this on their own. Some of the questions may trigger an emotional response and it is important that someone is around to help if needed."
-    },
+        "answer": "Yes, if a young person is over 18 years old their Circles questionnaire can be forwarded to them to complete on their own. Our advice is that you ensure the young person is supported or has access to support if doing this on their own. Some of the questions may trigger an emotional response and it is important that someone is around to help if needed. For step-by-step guidance, <a href='https://github.com/CirclesFRG/CirclesFAQ/blob/main/Files/Send%20questionnaire%20to%20young%20person.pdf' target='_blank'>read this PDF</a>."
+    }
     {
         "question": "Can questionnaires be deleted?",
         "answer": "Yes, if an error was made with a questionnaire, they can be deleted."
@@ -45,12 +45,12 @@
     },
     {
         "question": "How do I assign a young person to a coordinator?",
-        "answer": "Please follow the steps in the Admin Set-Up Guide."
-    },
+        "answer": "Please <a href='https://github.com/CirclesFRG/CirclesFAQ/blob/main/Files/Assign%20child%20to%20coordinator.pdf' target='_blank'>read this PDF guide</a> for detailed instructions."
+    }
     {
         "question": "How do I assign a young person to a social worker?",
-        "answer": "Please follow the steps in the Admin Set-Up Guide."
-    },
+        "answer": "Social workers add their own young people presently. You can <a href='https://github.com/CirclesFRG/CirclesFAQ/blob/main/Files/Adding%20and%20setting%20up%20a%20social%20worker.pdf' target='_blank'>read this PDF guide</a> for detailed instructions."
+    }
     {
         "question": "Can a social worker and coordinator use Circles for the same young person at the same time?",
         "answer": "No, the young person can only be assigned to either the coordinator or the social worker and not both at the same time."
@@ -105,9 +105,9 @@
     },
     {
         "question": "I am a coordinator, how can I reset my password?",
-        "answer": "Simply contact your Circles administrator. This will be a person in your own organisation (not Family Rights Group). They will be able to reset your password."
-    },
-        {
+        "answer": "Simply contact your Circles administrator. This will be a person in your own organisation (not Family Rights Group). They will be able to reset your password. If you are the administrator <a href='https://github.com/CirclesFRG/CirclesFAQ/blob/main/Files/Reset%20passwords.pdf' target='_blank'>refer to this PDF guide</a> for more help."
+    }
+    {
         "question": "Where is Circles data stored?",
         "answer": "The Circles database is securely stored within Amazon’s data centre in Dublin. It will remain within the EEA and not be transferred outside it."
     },
@@ -169,7 +169,7 @@
     },
     {
         "question": "How do I send a questionnaire to a young person?",
-        "answer": "Please follow the steps in the Coordinator Set-Up Guide"
+        "answer": "Please follow the steps in the Coordinator Set-Up Guide <a href='https://github.com/CirclesFRG/CirclesFAQ/blob/main/Files/Send%20questionnaire%20to%20young%20person.pdf' target='_blank'>for more information</a>."
     },
     {
         "question": "Can I save a questionnaire half way through",
@@ -177,8 +177,8 @@
     },
     {
         "question": "When the link is sent to the young person, can it go as text, WhatsApp as well as email?",
-        "answer": "Yes, Circles will generate a link which can be sent by text, email or any other means - see our practice guide for more information"
-    },
+        "answer": "Yes, Circles will generate a link which can be sent by text, email or any other means. <a href='https://github.com/CirclesFRG/CirclesFAQ/blob/main/Files/Send%20questionnaire%20to%20young%20person.pdf' target='_blank'>See our practice guide for more information</a>."
+    }
     {
         "question": "Can young people under 18 have the Circles questionnaire sent to them via a link?",
         "answer": "Yes, but this should only be done if there is no other option and with serious consideration as to the environment the young person will complete Circles in. There should be organised support available for them when they do. The support person should know what Circles is and be aware of what support the young person may need."
