@@ -56,6 +56,28 @@
         "answer": "No, the young person can only be assigned to either the coordinator or the social worker and not both at the same time."
     },
     {
+        "question": "I have lost my administrator password and Emergency Access Codes",
+        "answer": "Please contact Circles@frg.org.uk to get help with this issue."
+    },
+    {
+        "question": "What is the Child ID?",
+        "answer": "Child ID refers to a unique identification number for the child you would like to enter onto the Circles system. This is usually the child's file identification number (i.e., the number that you would use on your electronic system) or their Unique Pupil Number (UPN). No personal details (like names) should be entered."
+    },
+    {
+        "question": "What is the Circles ID?",
+        "answer": "Circles ID is the unique identification pseudonym for each child or young person on the Circles system. It involves randomly assigning a name using a colour, an animal, and a number (e.g., Red Panda 34). This name is automatically generated and cannot be changed."
+    },
+    {
+        "question": "Can I change a young person's Circles ID?",
+        "answer": "No, this is automatically generated and cannot be changed."
+    },
+    {
+        "question": "Who will be able to view a young person's answers?",
+        "answer": "The young person’s social worker will be able to view the answers from any past Circles questionnaires. 
+The Lifelong Links coordinator will only be able to view the Circles questionnaire that they complete with a young person. They will not be able to view past questionnaires nor will then be able to log in and look at questionnaires completed at a future date.
+Neither Family Rights Group nor Atto (the web developers) will have access to child-specific data."
+    },
+    {
         "question": "The young person has changed their name, will the affect Circles?",
         "answer": "No, Circles uses a date of birth and Child ID. A change of name will not affect the Circles database."
     }
