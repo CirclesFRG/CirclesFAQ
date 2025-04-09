@@ -26,7 +26,7 @@
     {
         "question": "Can young people use Circles themselves?",
         "answer": "Yes, if a young person is over 18 years old their Circles questionnaire can be forwarded to them to complete on their own. Our advice is that you ensure the young person is supported or has access to support if doing this on their own. Some of the questions may trigger an emotional response and it is important that someone is around to help if needed. For step-by-step guidance, <a href='https://github.com/CirclesFRG/CirclesFAQ/blob/main/Files/Send%20questionnaire%20to%20young%20person.pdf' target='_blank'>read this PDF</a>."
-    }
+    },
     {
         "question": "Can questionnaires be deleted?",
         "answer": "Yes, if an error was made with a questionnaire, they can be deleted."
@@ -100,7 +100,7 @@
         "answer": "Currently, only those with a FRG contract will be able to access Circles. If this may affect you, please talk to us - Circles@frg.org.uk"
     },
     {
-        "question": "When assigning multiple young people to one Coordinator, can you do this together or do they need to be assigned individually?",
+        "question": "When assigning multiple young people to one coordinator, can you do this together or do they need to be assigned individually?",
         "answer": "They can only be added to a coordinator one at a time. However, this is quite a speedy process when you know the Circles ID of the young people whom you'd like to add. We may make multiple additions possible in future updates."
     },
     {
@@ -124,11 +124,11 @@
         "answer": "Family Rights Group are working with Atto to develop Circles. Atto are a branding and digital agency. Since 2005, Atto have been designing and building systems dealing with highly confidential commercial and personal information for organisations including Intel EMEA, Canon Europe, Channel 4, Comic Relief, NHS East Midlands and the BBC. "
     },
         {
-        "question": "Can I practice using Cirlces before I work with a young person?",
+        "question": "Can I practice using Circles before I work with a young person?",
         "answer": "Absolutely. Please visit <a href='https://demo.frg.org.uk' target='_blank'>the Circles demo page</a> to practice using Circles."
     },
     {
-        "question": "Who can complete circles with a young person?",
+        "question": "Who can complete Circles with a young person?",
         "answer": "The child or young person's Lifelong Links coordinator, personal adviser (PA), social worker or the young person themselves can complete Circles."
     },
     {
@@ -136,7 +136,7 @@
         "answer": "Yes pets can be added! This will be the last question on each Circles questionnaire 🐶😺!"
     },
     {
-        "question": "How do I save the completed Circles summary so I can save it to he child's electronic file?",
+        "question": "How do I save the completed Circles summary so I can save it to the child's electronic file?",
         "answer": "Yes, presently you can print this from your browser in the same way you would print out a web page. Soon we will have a print to PDF function on the screen to make this easier and more aesthetic. Alternatively the summary can also be captured using 'print screen' and saved as a picture or added to a word document."
     },
     {
@@ -153,7 +153,7 @@
     },
     {
         "question": "What devices are compatible with Circles?",
-        "answer": "Circles can be used on mobile devices, tablets and laptops. If you experience any technical difficulties, please email circles@frg.org.uk for support."
+        "answer": "Circles can be used on mobile devices, tablets and laptops. If you experience any technical difficulties, please email Circles@frg.org.uk for support."
     },
     {
         "question": "Can I edit the name and picture of an 'important person' once I've saved it?",
@@ -165,7 +165,7 @@
     },
     {
         "question": "Can I use Circles with no internet?",
-        "answer": "No, you will need an internet connection for Circles to work. If you are needing to use Circles where there is no internet (e.g., in prisons) then please contact circles@frg.org.uk for advice on how to do this."
+        "answer": "No, you will need an internet connection for Circles to work. If you are needing to use Circles where there is no internet (e.g., in prisons) then please contact Circles@frg.org.uk for advice on how to do this."
     },
     {
         "question": "How do I send a questionnaire to a young person?",
@@ -189,7 +189,7 @@
     },
     {
         "question": "Can additional people be added to Circles during the questionnaire?",
-        "answer": "Yes, each question has a plus (+) button available. Simply click on the plus to add more people. The new person will be available for all of the questions before and after the question you are currently on. The <a href='https://frg.org.uk/lifelong-links/lifelong-links-circles/' target='_blank'>Circles film</a> will show you haw to do it."
+        "answer": "Yes, each question has a plus (+) button available. Simply click on the plus to add more people. The new person will be available for all of the questions before and after the question you are currently on. The <a href='https://frg.org.uk/lifelong-links/lifelong-links-circles/' target='_blank'>Circles film</a> will show you how to do it."
     },
     {
         "question": "How will Circles help with Lifelong Links work and the Lifelong Links family group conference?",
@@ -201,7 +201,7 @@
     },
     {
         "question": "The emoji a young person is looking for is not featured.",
-        "answer": "We understand that not every person in a network will have an emoji that looks exactly like them. We use Microsoft's 'Fluent Emojis' which are an international bank of emojis. We will be happy to hear about additional emojis that can represent people in young people's lives - circles@frg.org.uk"
+        "answer": "We understand that not every person in a network will have an emoji that looks exactly like them. We use Microsoft's 'Fluent Emojis' which are an international bank of emojis. We will be happy to hear about additional emojis that can represent people in young people's lives - Circles@frg.org.uk"
     },
     {
         "question": "Can I bypass emojis and just go to the questions?",
@@ -236,7 +236,7 @@
         "answer": "No, there was an option in a previous version, however it was not helpful to coordinators or young people. Circles is optimised for visual interactivity. Any notes needed can be written and discussed by the personal adviser/coordinator/social worker and young person."
     },
     {
-        "question": "I am a social worker, how an I reset my password?",
+        "question": "I am a social worker, how can I reset my password?",
         "answer": "Simply contact your local Circles administrator. This will be a person in your own organisation (not Family Rights Group). They will be able to reset your password."
     },
     {
