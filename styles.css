@@ -108,18 +108,18 @@ main {
 /* Back to top button */
 #backToTopBtn {
     position: fixed;
-    top: 50%;
-    right: 10px;
-    transform: translateY(-50%);
-    padding: 10px 14px;
+    bottom: 30px;  /* Positioned at the bottom */
+    right: 30px;   /* Positioned towards the right */
+    padding: 12px 18px;  /* Adjusted padding for a more rounded button */
     background-color: rgba(113, 102, 173, 0.8); /* Semi-transparent purple */
     color: white;
     border: none;
-    border-radius: 30px;
-    font-size: 18px;
+    border-radius: 50%;  /* Circular button */
+    font-size: 20px;      /* Larger font size for visibility */
     cursor: pointer;
-    display: none;
-    z-index: 1000;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-    transition: opacity 0.3s ease;
+    display: none;        /* Initially hidden */
+    z-index: 9999;        /* Ensures it's on top of other elements */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);  /* Soft shadow to make it stand out */
+    transition: opacity 0.3s ease;  /* Smooth opacity transition */
 }
+
