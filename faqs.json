@@ -80,6 +80,14 @@
         "answer": "Yes, Circles can be used by social work teams with other children in care."
     },
     {
+        "question": "Can I create my own sub-groups to collect data on (for example unaccompanied asylum-seeking children or children in residential care)?",
+        "answer": "Not presently. Family Rights Group will let you know when future feature will be available and any work-arounds."
+    },
+    {
+        "question": "What data output will I see once we have started using Circles with young people?",
+        "answer": "Please visit <a href='https://frg.org.uk/lifelong-links/lifelong-links/circles/' target='_blank'>Family Rights Group's Circles web page</a> to stay up-to-date."
+    },
+    {
         "question": "The young person has changed their name, will the affect Circles?",
         "answer": "No, Circles uses a date of birth and Child ID. A change of name will not affect the Circles database."
     }
