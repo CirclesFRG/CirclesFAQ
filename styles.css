@@ -8,18 +8,30 @@ body {
     margin: 0;
     padding: 0;
 }
+/* Style for the logo */
+#logo {
+    height: 50px; /* Adjust the size of the logo */
+    width: auto;  /* Maintain aspect ratio */
+    vertical-align: middle; /* Align logo with text */
+    margin-right: 20px; /* Space between logo and text */
+}
 
+/* Header styling */
 header {
+    display: flex;
+    align-items: center; /* Align the items in the center */
     background-color: #7166AD;
     color: white;
     padding: 20px;
     text-align: center;
+    justify-content: center; /* Center the contents horizontally */
 }
 
 header h1 {
     margin: 0;
     font-size: 2rem;
 }
+
 
 /* Search input styling */
 #searchInput {
