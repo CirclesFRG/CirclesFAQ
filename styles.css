@@ -121,8 +121,9 @@ main {
 /* Back to top button */
 #backToTopBtn {
     position: fixed;
-    top: 140px;  /* Positioned at the top */
-    left: 30px;   /* Positioned towards the left */
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: auto;
     padding: 12px 18px;  /* Adjusted padding for a more rounded button */
     background-color: rgba(128, 128, 128, 0.6); /* Semi-transparent grey */
     color: white;
