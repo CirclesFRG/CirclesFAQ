@@ -96,7 +96,6 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     }
 
-    // Trigger search on button click or keyup
-    document.getElementById('searchButton').addEventListener('click', searchFAQs);
+    // Trigger search on keyup event in the input field
     document.getElementById('searchInput').addEventListener('keyup', searchFAQs);
 });
