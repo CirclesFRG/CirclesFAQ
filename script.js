@@ -89,26 +89,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
-    // Modal handling for PDFs
-    var modal = document.getElementById("pdfModal");
-    var pdfIframe = document.getElementById("pdfIframe");
-
-    // Function to open the modal
-    function openModal(pdfUrl) {
-        modal.style.display = "block";
-        pdfIframe.src = pdfUrl;
-    }
-
-    // Function to close the modal
-    function closeModal() {
-        modal.style.display = "none";
-        pdfIframe.src = ""; // Stop the PDF from loading when the modal closes
-    }
-
-    // Clicking outside the modal will also close it
-    window.onclick = function (event) {
-        if (event.target == modal) {
-            closeModal();
-        }
-    }
+    // Trigger search on button click or keyup
+    document.getElementById('searchButton').addEventListener('click', searchFAQs);
+    document.getElementById('searchInput').addEventListener('keyup', searchFAQs);
 });
