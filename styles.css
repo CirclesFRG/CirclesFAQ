@@ -8,6 +8,7 @@ body {
     margin: 0;
     padding: 0;
 }
+
 .faq-intro {
     max-width: 800px;
     margin: 20px auto 10px auto;
@@ -16,24 +17,10 @@ body {
     line-height: 1.6;
     text-align: left;
 }
+
 .faq-intro a {
     color: #7166AD;
     text-decoration: underline;
-}
-#searchButton {
-    padding: 10px 16px;
-    margin-left: 10px;
-    background-color: #7166AD;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-#searchButton:hover {
-    background-color: #5e5491; /* Slightly darker on hover */
 }
 
 /* Search input styling */
@@ -51,6 +38,7 @@ body {
         width: 90%;
         margin-top: 10px;
     }
+
     .faq-question {
         font-size: 18px;  /* Slightly smaller font size for mobile */
         padding: 15px;
@@ -61,7 +49,6 @@ body {
     }
 }
 
-
 main {
     padding: 20px;
 }
@@ -70,9 +57,10 @@ main {
     max-width: 800px;
     margin: 0 auto;
 }
+
 .search-wrapper {
     max-width: 800px;
-    margin: 20px auto 0 auto; /*add top spacing*/
+    margin: 20px auto 0 auto; /* add top spacing */
     padding: 0 20px;
     display: flex;
     align-items: center;
