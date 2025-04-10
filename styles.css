@@ -121,10 +121,10 @@ main {
 /* Back to top button */
 #backToTopBtn {
     position: fixed;
-    top: 100px;  /* Positioned at the top */
+    top: 140px;  /* Positioned at the top */
     left: 30px;   /* Positioned towards the left */
     padding: 12px 18px;  /* Adjusted padding for a more rounded button */
-    background-color: rgba(113, 102, 173, 0.8); /* Semi-transparent purple */
+    background-color: rgba(128, 128, 128, 0.6); /* Semi-transparent grey */
     color: white;
     border: none;
     border-radius: 50%;  /* Circular button */
