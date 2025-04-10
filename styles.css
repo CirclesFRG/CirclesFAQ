@@ -31,29 +31,18 @@ body {
 
 /* Mobile specific styles */
 @media (max-width: 600px) {
-    header {
-        padding: 15px;
-        text-align: center;
-    }
-
-    /* Logo size for mobile */
-    #logo {
-        width: 120px;  /* Smaller logo */
-    }
-
-    header h1 {
-        font-size: 1.5rem;  /* Smaller heading font size */
-    }
-
     /* Make the search bar full width */
     #searchInput {
         width: 90%;
         margin-top: 10px;
     }
+    .faq-question {
+        font-size: 18px;  /* Slightly smaller font size for mobile */
+        padding: 15px;
+    }
 
-    /* Adjust logo and heading position */
-    header {
-        display: block;  /* Stack logo and heading */
+    .faq-answer {
+        padding: 10px 15px;  /* Adjust padding for smaller screens */
     }
 }
 
