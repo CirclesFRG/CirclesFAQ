@@ -4,8 +4,16 @@
         "answer": "<p>Circles is a questionnaire which explores who is important to a child or a young person (who is or has been in care) and/or who they rely on and in what way.</p> <p>The questionnaire has been designed as an integral part of Lifelong Links. It has been developed in consultation with young people in care and care leavers, social workers and their managers, family group conference managers and coordinators, and academics.</p> <p>In addition to being used as part of Lifelong Links, Circles is also intended to be used as a social work tool for other children in care. Circles helps practitioners explore, from the child’s perspective, who is important to them, the extent of their support network and in what ways members of their network are helping or may help them.</p> <p>Please contact us if you are interested in finding out more: Circles@frg.org.uk and <a href='https://frg.org.uk/lifelong-links/lifelong-links-circles/' target='_blank'>watch the short film here.</a>.</p>"
     },
     {
+        "question": "Where is the Circles set-up guide?",
+        "answer": "You can view the full Circles set up guid here <a href='https://frg.org.uk/wp-content/uploads/2025/04/240423-Circles-set-up.pdf' target='_blank'>"
+    },
+    {
         "question": "If you delete a coordinator, will you delete the young person's data?",
         "answer": "No the young person's information will return to the administrator so that it can be assigned to a different coordinator or social worker."
+    },
+    {
+        "question": "How do I add additional administrators?",
+        "answer": "Simply follow our step-by-step guide <a href='https://frg.org.uk/wp-content/uploads/2025/04/240423-Circles-set-up.pdf' target='_blank'>located here.</a>."
     },
     {
         "question": "I am a Circles administrator, can I complete the questionnaire with a young person?",
@@ -13,7 +21,7 @@
     },
     {
         "question": "I am an administrator, how can I reset my password?",
-        "answer": "1. Ask another administrator to reset your password by following the steps <a href='https://github.com/CirclesFRG/CirclesFAQ/blob/main/Files/Reset%20adminitrator%20password.pdf' target='_blank'>in the set-up guide.</a> 2. Contact Family Rights Group who will support you to gain access to your account using either the Emergency Access Codes or by giving temporary permission to set-up a trusted colleague as an additional administrator."
+        "answer": "1. Ask another administrator to reset your password by following the steps <a href='https://frg.org.uk/wp-content/uploads/2025/04/240423-Circles-set-up.pdf' target='_blank'>in the set-up guide.</a> 2. Contact Family Rights Group who will support you to gain access to your account using either the Emergency Access Codes or by giving temporary permission to set-up a trusted colleague as an additional administrator."
     },
     {
         "question": "Can Personal Advisers (PAs) use Circles with young people?",
@@ -25,7 +33,7 @@
     },
     {
         "question": "Can young people use Circles themselves?",
-        "answer": "Yes, if a young person is over 18 years old their Circles questionnaire can be forwarded to them to complete on their own. Our advice is that you ensure the young person is supported or has access to support if doing this on their own. Some of the questions may trigger an emotional response and it is important that someone is around to help if needed. For step-by-step guidance, <a href='https://github.com/CirclesFRG/CirclesFAQ/blob/main/Files/Send%20questionnaire%20to%20young%20person.pdf' target='_blank'>read this PDF</a>."
+        "answer": "Yes, if a young person is over 18 years old their Circles questionnaire can be forwarded to them to complete on their own. Our advice is that you ensure the young person is supported or has access to support if doing this on their own. Some of the questions may trigger an emotional response and it is important that someone is around to help if needed. For step-by-step guidance, <a href='https://frg.org.uk/wp-content/uploads/2025/04/Send-questionnaire-to-young-person.pdf' target='_blank'>read this PDF</a>."
     },
     {
         "question": "Can questionnaires be deleted?",
@@ -45,11 +53,11 @@
     },
     {
         "question": "How do I assign a young person to a coordinator?",
-        "answer": "Please <a href='https://github.com/CirclesFRG/CirclesFAQ/blob/main/Files/Assign%20child%20to%20coordinator.pdf' target='_blank'>read this PDF guide</a> for detailed instructions."
+        "answer": "Please <a href='https://frg.org.uk/wp-content/uploads/2025/04/Assign-child-to-coordinator.pdf' target='_blank'>read this PDF guide</a> for detailed instructions."
     },
     {
         "question": "How do I assign a young person to a social worker?",
-        "answer": "Social workers add their own young people presently. You can <a href='https://github.com/CirclesFRG/CirclesFAQ/blob/main/Files/Adding%20and%20setting%20up%20a%20social%20worker.pdf' target='_blank'>read this PDF guide</a> for detailed instructions."
+        "answer": "Social workers add their own young people presently. You can <a href='https://frg.org.uk/wp-content/uploads/2025/04/Adding-and-setting-up-a-social-worker.pdf' target='_blank'>read this PDF guide</a> for detailed instructions."
     },
     {
         "question": "Can a social worker and coordinator use Circles for the same young person at the same time?",
@@ -85,15 +93,15 @@
     },
     {
         "question": "What data output will I see once we have started using Circles with young people?",
-        "answer": "Please visit <a href='https://frg.org.uk/lifelong-links/lifelong-links/circles/' target='_blank'>Family Rights Group's Circles web page</a> to stay up-to-date."
+        "answer": "Please visit <a href='https://frg.org.uk/lifelong-links/lifelong-links-circles/' target='_blank'>Family Rights Group's Circles web page</a> to stay up-to-date."
     },
     {
         "question": "How do I revoke access?",
-        "answer": "Please <a href='https://github.com/CirclesFRG/CirclesFAQ/blob/main/Files/Revoking%20access.pdf' target='_blank'>follow these steps.</a>"
+        "answer": "Please <a href='https://frg.org.uk/wp-content/uploads/2025/04/Revoking-access.pdf' target='_blank'>follow these steps.</a>"
     },
     {
         "question": "How do I reset passwords?",
-        "answer": "Please <a href='https://github.com/CirclesFRG/CirclesFAQ/blob/main/Files/Reset%20passwords.pdf' target='_blank'>follow the steps.</a>"
+        "answer": "Please <a href='https://frg.org.uk/wp-content/uploads/2025/04/Reset-passwords.pdf' target='_blank'>follow the steps.</a>"
     },
     {
         "question": "Can the child's ID contain their name?",
@@ -113,7 +121,7 @@
     },
     {
         "question": "I am a coordinator, how can I reset my password?",
-        "answer": "Simply contact your Circles administrator. This will be a person in your own organisation (not Family Rights Group). They will be able to reset your password. If you are the administrator <a href='https://github.com/CirclesFRG/CirclesFAQ/blob/main/Files/Reset%20passwords.pdf' target='_blank'>refer to this PDF guide</a> for more help."
+        "answer": "Simply contact your Circles administrator. This will be a person in your own organisation (not Family Rights Group). They will be able to reset your password. If you are the administrator <a href='https://frg.org.uk/wp-content/uploads/2025/04/Reset-passwords.pdf' target='_blank'>refer to this PDF guide</a> for more help."
     },
     {
         "question": "Where is Circles data stored?",
@@ -181,7 +189,7 @@
     },
     {
         "question": "How do I send a questionnaire to a young person?",
-        "answer": "Please follow the steps in the Coordinator Set-Up Guide <a href='https://github.com/CirclesFRG/CirclesFAQ/blob/main/Files/Send%20questionnaire%20to%20young%20person.pdf' target='_blank'>for more information</a>."
+        "answer": "Please follow the steps in the Coordinator Set-Up Guide <a href='https://frg.org.uk/wp-content/uploads/2025/04/Adding-and-setting-up-a-coordinator.pdf' target='_blank'>for more information</a>."
     },
     {
         "question": "Can I save a questionnaire half way through",
@@ -189,7 +197,7 @@
     },
     {
         "question": "When the link is sent to the young person, can it go as text, WhatsApp as well as email?",
-        "answer": "Yes, Circles will generate a link which can be sent by text, email or any other means. <a href='https://github.com/CirclesFRG/CirclesFAQ/blob/main/Files/Send%20questionnaire%20to%20young%20person.pdf' target='_blank'>See our practice guide for more information</a>."
+        "answer": "Yes, Circles will generate a link which can be sent by text, email or any other means. <a href='https://frg.org.uk/wp-content/uploads/2025/04/Send-questionnaire-to-young-person.pdf' target='_blank'>See our practice guide for more information</a>."
     },
     {
         "question": "Can young people under 18 have the Circles questionnaire sent to them via a link?",
