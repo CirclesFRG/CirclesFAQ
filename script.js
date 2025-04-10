@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     // Search function with auto-collapse
-    window.searchFAQs = function () {
+    function searchFAQs() {
         const input = document.getElementById("searchInput").value.toLowerCase();
         const faqItems = document.querySelectorAll(".faq-item");
 
@@ -87,6 +87,13 @@ document.addEventListener('DOMContentLoaded', function () {
             btn.setAttribute('aria-expanded', 'false');
             ans.setAttribute('aria-hidden', 'true');
         });
+        
+        // If input is empty, reset all FAQ items to visible
+        if (input === "") {
+            faqItems.forEach(item => {
+                item.style.display = "block";
+            });
+        }
     }
 
     // Trigger search on button click or keyup
