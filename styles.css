@@ -36,11 +36,6 @@ body {
         text-align: center;
     }
 
-    /* Logo size for mobile */
-    #logo {
-        width: 120px;  /* Smaller logo */
-    }
-
     header h1 {
         font-size: 1.5rem;  /* Smaller heading font size */
     }
