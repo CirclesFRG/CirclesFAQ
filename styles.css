@@ -20,6 +20,22 @@ body {
     color: #7166AD;
     text-decoration: underline;
 }
+#searchButton {
+    padding: 10px 16px;
+    margin-left: 10px;
+    background-color: #7166AD;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#searchButton:hover {
+    background-color: #5e5491; /* Slightly darker on hover */
+}
+
 /* Search input styling */
 #searchInput {
     width: 80%;
